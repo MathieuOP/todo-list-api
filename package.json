@@ -1,0 +1,24 @@
+{
+  "name": "todo-list-api",
+  "version": "1.0.0",
+  "description": "API en nodeJS avec le framework express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MathieuOP/todo-list-api.git"
+  },
+  "author": "Mathieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MathieuOP/todo-list-api/issues"
+  },
+  "homepage": "https://github.com/MathieuOP/todo-list-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
