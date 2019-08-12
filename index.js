@@ -5,7 +5,6 @@ const cors = require('cors');
 
 mongoose.connect('mongodb://localhost/todolist', {useNewUrlParser: true});
 
-
 const app = express();
 
 const todoListRoutes = require('./routes/todoListRoutes');

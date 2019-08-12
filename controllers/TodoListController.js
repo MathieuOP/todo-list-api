@@ -3,7 +3,7 @@ const todo = require('../models/Todo');
 // home
 exports.getTodoList = (req, res) => { 
 
-    todo.find({}, (err, data) => {
+    todo.find({}).sort({createdAt: -1}).exec((err, data) => {
         if (err) {
             res.render('error', {
                 status: 500
